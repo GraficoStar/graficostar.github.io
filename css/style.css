@@ -1,0 +1,39 @@
+body {
+  margin: 0px;
+  background-color: #00000;
+}
+header {
+  height: 130px;
+  weight: 800px;
+  background-repeat: no-repeat;
+  background-size: 450px;
+  background-position: right;
+  background: rgba(255,255,255,1);
+background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(232,173,165,1) 44%, rgba(246,41,12,1) 49%, rgba(173,155,156,1) 53%, rgba(214,182,184,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(44%, rgba(232,173,165,1)), color-stop(49%, rgba(246,41,12,1)), color-stop(53%, rgba(173,155,156,1)), color-stop(100%, rgba(214,182,184,1)));
+background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(232,173,165,1) 44%, rgba(246,41,12,1) 49%, rgba(173,155,156,1) 53%, rgba(214,182,184,1) 100%);
+background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(232,173,165,1) 44%, rgba(246,41,12,1) 49%, rgba(173,155,156,1) 53%, rgba(214,182,184,1) 100%);
+background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(232,173,165,1) 44%, rgba(246,41,12,1) 49%, rgba(173,155,156,1) 53%, rgba(214,182,184,1) 100%);
+background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(232,173,165,1) 44%, rgba(246,41,12,1) 49%, rgba(173,155,156,1) 53%, rgba(214,182,184,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d6b6b8', GradientType=1 );
+}
+.logo {
+  height:50%;
+  padding-top: 30px;
+  margin-left: 10px;
+  float: left;
+
+}
+.careto{
+  height: 130px;
+  margin-right: 40px;
+  float: right;
+  margin-right: 0;
+}
+.lin-rojo{
+  height: 2px;
+  background-color: red;
+}
+.lin-blan{
+  height: 3px;
+}
