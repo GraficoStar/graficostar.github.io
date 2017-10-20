@@ -1,4 +1,4 @@
-/ /*body {
+body {
   margin: 0px;
   background-color: rgb(255,200,180);
   width: 100%;
@@ -87,7 +87,7 @@ button:hover {
   float: left;
   height:100px;
 }
-*/
+
 
 
 
