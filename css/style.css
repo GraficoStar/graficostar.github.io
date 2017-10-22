@@ -99,18 +99,166 @@ button:hover {
 
 
 
-
+body{
+  margin:0;
+  background-color: rgb(255,200,180);
+}
 header{
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: right;
+  background: rgba(255,255,255,1);
+  background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(232,173,165,1) 44%, rgba(246,41,12,1) 49%, rgba(173,155,156,1) 53%, rgba(214,182,184,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(44%, rgba(232,173,165,1)), color-stop(49%, rgba(246,41,12,1)), color-stop(53%, rgba(173,155,156,1)), color-stop(100%, rgba(214,182,184,1)));
+  background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(232,173,165,1) 44%, rgba(246,41,12,1) 49%, rgba(173,155,156,1) 53%, rgba(214,182,184,1) 100%);
+  background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(232,173,165,1) 44%, rgba(246,41,12,1) 49%, rgba(173,155,156,1) 53%, rgba(214,182,184,1) 100%);
+  background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(232,173,165,1) 44%, rgba(246,41,12,1) 49%, rgba(173,155,156,1) 53%, rgba(214,182,184,1) 100%);
+  background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(232,173,165,1) 44%, rgba(246,41,12,1) 49%, rgba(173,155,156,1) 53%, rgba(214,182,184,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d6b6b8', GradientType=1 );
+  height: 100px;
   display: flex;
   flex-direction: row;
-  width: 40px;
+  width: 100%;
+  align-items: center;
+}
+.div-logo{
+  width: 200px;
 }
 .logo{
-  width:30%;
+  width: 200px;
 }
 .dis-locu{
-  width: 50%;
+width: 317px;
+}
+.div-dislocu{
+  width: 317px;
+  text-align: right;
+}
+li{
+  font-family: sans-serif;
+  font-size: 12px;
+  list-style: none;
+  line-height: 30px;
+}
+.div-botones{
+  text-align: center;
+  display: flex;
+  width: 100%;
 }
 .botones{
   display: flex;
+  flex-direction: row;
+  width:100%;
+  text-align: center;
+}
+.boton{
+  height: 30px;
+  width: 110px;
+  background-color: red;
+  color: white;
+  border-radius: 9px;
+  border-style: solid;
+  margin: 0 auto;
+}
+.lin-rojo{
+  height: 2px;
+  background-color: red;
+}
+.lin-blan{
+  height: 3px;
+  background-color: grey;
+}
+.logo-grande{
+  width:200px;
+  position: absolute;
+  top: 60px;
+  left: -60px;
+}
+.div-logogrande{
+  width:400px;
+}
+.cuerpo1{
+  margin:-10px
+}
+.barra-gris{
+  background-color: rgb(180,180,180);
+  width:100%;
+}
+h1{
+  margin-left: 150px;
+  font-family: sans-serif;
+  color: red;
+}
+.quiensoy{
+  background: rgba(255,139,100,1);
+  background: -moz-linear-gradient(left, rgba(255,139,100,1) 0%, rgba(255,201,180,1) 91%, rgba(255,201,180,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,139,100,1)), color-stop(91%, rgba(255,201,180,1)), color-stop(100%, rgba(255,201,180,1)));
+  background: -webkit-linear-gradient(left, rgba(255,139,100,1) 0%, rgba(255,201,180,1) 91%, rgba(255,201,180,1) 100%);
+  background: -o-linear-gradient(left, rgba(255,139,100,1) 0%, rgba(255,201,180,1) 91%, rgba(255,201,180,1) 100%);
+  background: -ms-linear-gradient(left, rgba(255,139,100,1) 0%, rgba(255,201,180,1) 91%, rgba(255,201,180,1) 100%);
+  background: linear-gradient(to right, rgba(255,139,100,1) 0%, rgba(255,201,180,1) 91%, rgba(255,201,180,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8b64', endColorstr='#ffc9b4', GradientType=1 );
+  height: 180px;
+  background-color: rgb(255,140,100);
+  margin: 30px 0 30px 100px;
+  padding: 1px 100px 1px 10px;
+  border-radius: 20px;
+  z-index: 2;
+}
+.div-coche{
+  position: absolute;
+}
+.coche{
+  height:180px;
+  margin-top: 30px;
+}
+.tapa{
+  position: absolute;
+  right: 170px;
+  margin-top: 20px;
+  z-index: 1;
+}
+.texto-foto{
+  margin:-10px;
+  display: flex;
+  position: relative;
+}
+.quiensoy p{
+  font-family:sans-serif;
+  color: rgb(87, 0, 0);
+  width:114%;
+}
+.barra-roja{
+  background-color: rgb(87,0,0);
+  width:100%;
+  margin-top:-30px;
+}
+.h1-blanco{
+  margin-left: 50px;
+  font-family: sans-serif;
+  color: white;
+}
+.texto-foto2{
+  margin:-10px;
+  display: flex;
+}
+.aplicaciones{
+  font-family:sans-serif;
+  color: rgb(87, 0, 0);
+  width:90%;
+  background-color: rgb(255,140,100);
+  border-radius: 20px;
+  padding:0 10px 0 10px;
+  margin: 0 20px 20px 0;
+}
+.entra{
+  height: 30px;
+  width: 110px;
+  background-color: red;
+  color: white;
+  border-radius: 9px;
+  border-style: solid;
+  margin-left: 400px;
+  margin-bottom: 10px;
+  padding-bottom: 15px;
 }
