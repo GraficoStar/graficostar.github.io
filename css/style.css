@@ -1,126 +1,3 @@
-/*body {
-  margin: 0px;
-  background-color: rgb(255,200,180);
-  width: 100%;
-}
-header {
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: right;
-  background: rgba(255,255,255,1);
-  background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(232,173,165,1) 44%, rgba(246,41,12,1) 49%, rgba(173,155,156,1) 53%, rgba(214,182,184,1) 100%);
-  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(44%, rgba(232,173,165,1)), color-stop(49%, rgba(246,41,12,1)), color-stop(53%, rgba(173,155,156,1)), color-stop(100%, rgba(214,182,184,1)));
-  background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(232,173,165,1) 44%, rgba(246,41,12,1) 49%, rgba(173,155,156,1) 53%, rgba(214,182,184,1) 100%);
-  background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(232,173,165,1) 44%, rgba(246,41,12,1) 49%, rgba(173,155,156,1) 53%, rgba(214,182,184,1) 100%);
-  background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(232,173,165,1) 44%, rgba(246,41,12,1) 49%, rgba(173,155,156,1) 53%, rgba(214,182,184,1) 100%);
-  background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(232,173,165,1) 44%, rgba(246,41,12,1) 49%, rgba(173,155,156,1) 53%, rgba(214,182,184,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d6b6b8', GradientType=1 );
-  height: 150px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-h1{
-  margin-left: 200px;
-  font-family: sans-serif;
-}
-.logo {
-  height: 100px;
-  padding-top: 20px;
-  margin-left:10px;
-}
-.careto{
-  display: flex;
-  float: right;
-  min-height: 150px;
-  max-height: 150px;
-}
-.lin-rojo{
-  height: 2px;
-  background-color: red;
-}
-.lin-blan{
-  height: 3px;
-  background-color: grey;
-}
-.soy{
-  position: absolute;
-  margin-top: -200px;
-}
-.caja-careto{
-  width: 100%;
-}
-.separacion-botones{
-  display: flex;
-  align-self: flex-start;
-  width: 30%;
-}
-.botones{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  position: absolute;
-}
-button{
-  height: 30px;
-  width: 110px;
-  margin-top: 45px;
-  background-color: red;
-  color: white;
-  border-radius: 9px;
-  border-style: solid;
-  align-items: center;
-}
-button:hover {
- background-color: rgb(255,100,100);
-}
-.pagina{
-  background-image: url(../imagenes/graficostar.png);
-  background-size: 20%;
-  background-repeat: no-repeat;
-  height: 500px;
-  position: relative;
-  left: -80px;
-  top:-150px;
-}
-.tapa{
-  float: left;
-  height:100px;
-}
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 body{
   margin:0;
   background-color: rgb(255,200,180);
@@ -356,6 +233,7 @@ li:hover{
 
 @media screen and (max-width: 770px){
 
+
 li{
   height: 30px;
   width: 110px;
@@ -372,9 +250,8 @@ li{
   top: 13px;
   }
 .quiensoy p{
-  font-family:sans-serif;
   color: rgb(87, 0, 0);
-  width:125%;
+  width:100%;
   font-size: 14px;
   }
 .logo-grande{
@@ -384,9 +261,10 @@ li{
   left: -40px;
   }
 h1{
-  margin-left: 90px;
+  margin-left: 100px;
   font-family: sans-serif;
   color: red;
+  font-size: 20px;
 }
 .div-dislocu{
   display: none;
@@ -394,11 +272,9 @@ h1{
 .tapa{
   display: none;
 }
-
 .coche{
   height:180px;
-  margin-top: 30px;
-  position: fixed;
+  margin-top: -10px;
 }
 .quiensoy{
   background: rgba(255,139,100,1);
@@ -410,11 +286,69 @@ h1{
   background: linear-gradient(to right, rgba(255,139,100,1) 0%, rgba(255,201,180,1) 91%, rgba(255,201,180,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8b64', endColorstr='#ffc9b4', GradientType=1 );
   background-color: rgb(255,140,100);
-  margin: 30px 0 30px 100px;
+  margin: 20px 0 30px 20px;
   padding: 1px 100px 1px 10px;
   border-radius: 20px;
+  height: 100%;
+}
+.texto-foto{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: auto;
+}
+.h1-blanco{
+  margin-top: 40px;
+  font-family: sans-serif;
+  color: white;
+}
+.entra{
+  margin-left: 0;
+}
+.texto-foto2{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: auto;
+}
+.aplicaciones{
+  width: 92%;
+  margin-right: auto;
+  margin-left: 10px;
+}
+.menu{
+  display: none;
 }
 
+}
+
+
+
+
+
+
+@media screen and (max-width: 320px){
+
+.botones{
+  display: none;
+}
+.menu{
+  display: block;
+  width: 50px;
+  margin-left: 20px;
+}
+.quiensoy p{
+  width: 130%;
+}
+.aplicaciones{
+  width:83%;
+}
+.entra{
+  margin-left: 25%;
+}
+.logo-grande{
+  width:100px;
+}
 
 
 }
