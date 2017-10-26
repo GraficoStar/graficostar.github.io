@@ -336,7 +336,7 @@ h1{
 .despliegue{
   display: flex;
   flex-direction: column;
-  position: relative;
+  position: absolute;
   right: 150px;
   top:120px;
   z-index: 3;
