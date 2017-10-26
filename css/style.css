@@ -33,12 +33,7 @@ width: 317px;
 .div-dislocu{
   width: 317px;
 }
-li{
-  font-family: sans-serif;
-  font-size: 12px;
-  list-style: none;
-  line-height: 30px;
-}
+
 .div-botones{
   text-align: center;
   display: flex;
@@ -58,6 +53,10 @@ li{
   border-radius: 9px;
   border-style: solid;
   margin: 30px;
+  font-family: sans-serif;
+  font-size: 12px;
+  list-style: none;
+  line-height: 30px;
 }
 .lin-rojo{
   height: 2px;
@@ -77,7 +76,7 @@ li{
   width:400px;
 }
 .cuerpo1{
-  margin:-10px
+  width: 100%;
 }
 .barra-gris{
   background-color: rgb(180,180,180);
@@ -118,14 +117,14 @@ h1{
   z-index: 1;
 }
 .texto-foto{
-  margin:-10px;
+  width: 100%;
   display: flex;
   position: relative;
 }
 .quiensoy p{
   font-family:sans-serif;
   color: rgb(87, 0, 0);
-  width:114%;
+  width:100%;
 }
 .barra-roja{
   background-color: rgb(87,0,0);
@@ -138,7 +137,7 @@ h1{
   color: white;
 }
 .texto-foto2{
-  margin:-10px;
+  width: 100%;
   display: flex;
 }
 .aplicaciones{
@@ -336,7 +335,7 @@ h1{
 .despliegue{
   display: flex;
   flex-direction: column;
-  position: absolute;
+  position: relative;
   right: 150px;
   top:120px;
   z-index: 3;
