@@ -328,6 +328,9 @@ h1{
 
 @media screen and (max-width: 320px){
 
+.div-botones{
+  width: 0;
+}
 .botones{
   display: none;
 }
