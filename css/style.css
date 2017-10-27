@@ -171,7 +171,25 @@ li:hover{
 .menu{
   display: none;
 }
-
+footer{
+  background-color: rgb(136, 0, 21);
+  height: 150px;
+  display: flex;
+}
+.logo-bajo{
+  width: 150px;
+  margin-top: 80px;
+  margin-left: 10px;
+}
+.copy-bajo{
+  margin-top: 90px;
+  margin-left: 60%;
+  width: 100%
+}
+h5{
+  font-family: sans-serif;
+  color: white;
+}
 
 
 
