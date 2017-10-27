@@ -476,6 +476,10 @@ h1{
 .logo-grande{
   width:100px;
 }
-
+.logo-bajo{
+  width: 40px;
+  margin-top: 80px;
+  margin-left: 10px;
+}
 
 }
